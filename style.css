@@ -109,7 +109,6 @@ input {
   height: 44.5px;
   line-height: 44.5px;
   cursor: pointer;
-  user-select: none;
   font-size: 14px;
   position: relative;
   box-sizing: border-box;

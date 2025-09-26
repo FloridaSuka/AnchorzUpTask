@@ -15,19 +15,19 @@
         </header>
         <main class="main-content">
             <h1>URL Shortener</h1>
-            <form>
-                <input type="url" name="url" placeholder="Paste the URL to be shortened">
+            <form id="shorten-form">
+                <input type="url" name="url" placeholder="Paste the URL to be shortened" required>
                 <button type="submit" style="color:white; font-size: 13px">Shorten URL</button>
-              <div class="custom-select">
-  <div class="select-selected">Add Expiration Date</div>
-  <div class="select-items select-hide">
-    <div data-value="1">1 minute</div>
-    <div data-value="2">5 minutes</div>
-    <div data-value="3">30 minutes</div>
-    <div data-value="4">1 hour</div>
-    <div data-value="5">5 hours</div>
-  </div>
-</div>
+                <div class="custom-select" id="expiration-select">
+                    <div class="select-selected">Add Expiration Date</div>
+                    <div class="select-items select-hide">
+                        <div data-value="1">1 minute</div>
+                        <div data-value="2">5 minutes</div>
+                        <div data-value="3">30 minutes</div>
+                        <div data-value="4">1 hour</div>
+                        <div data-value="5">5 hours</div>
+                    </div>
+                </div>
             </form>
         </main>
         <aside class="aside-content background-color">
